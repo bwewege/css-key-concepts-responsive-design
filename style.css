@@ -21,7 +21,6 @@ h2 {
 h3 {
   font-size: 1.25rem;
 }
-
 p {
   font-size: 1rem;
 }
@@ -40,4 +39,48 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  body {
+    background-color: var(--camel);
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3.25rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  body {
+    background-color: var(--coral);
+  }
 }
