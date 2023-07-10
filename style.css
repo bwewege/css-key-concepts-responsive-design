@@ -21,7 +21,13 @@ h2 {
 h3 {
   font-size: 1.25rem;
 }
-p {
+
+.cat-ipsum {
+  display: block;
+  font-size: 1rem;
+}
+
+.card p {
   font-size: 1rem;
 }
 
@@ -54,7 +60,11 @@ img {
     font-size: 2.25rem;
   }
 
-  p {
+  .cat-ipsum {
+    display: none;
+  }
+
+  .card p {
     font-size: 2rem;
   }
 
@@ -76,11 +86,43 @@ img {
     font-size: 3.25rem;
   }
 
-  p {
+  .cat-ipsum {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .card p {
     font-size: 3rem;
   }
 
   body {
     background-color: var(--coral);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+
+  h1 {
+    color: var(--light);
+  }
+
+  h2 {
+    color: var(--light);
+  }
+
+  h3 {
+    color: var(--light);
+  }
+
+  .cat-ipsum {
+    color: var(--light);
+  }
+
+  .card p {
+    color: var(--light);
   }
 }
