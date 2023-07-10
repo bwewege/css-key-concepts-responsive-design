@@ -49,6 +49,32 @@ img {
 
 @media (min-width: 700px) {
   h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .cat-ipsum {
+    display: none;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  body {
+    background-color: var(--camel);
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
     font-size: 3.5rem;
   }
 
@@ -61,38 +87,12 @@ img {
   }
 
   .cat-ipsum {
-    display: none;
+    display: block;
+    font-size: 2rem;
   }
 
   .card p {
     font-size: 2rem;
-  }
-
-  body {
-    background-color: var(--camel);
-  }
-}
-
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 4.5rem;
-  }
-
-  h2 {
-    font-size: 3.5rem;
-  }
-
-  h3 {
-    font-size: 3.25rem;
-  }
-
-  .cat-ipsum {
-    display: block;
-    font-size: 3rem;
-  }
-
-  .card p {
-    font-size: 3rem;
   }
 
   body {
